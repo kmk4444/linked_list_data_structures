@@ -1,2 +1,4 @@
 # linked_list_data_structures
 When you complete the contents of the function.h file, you will get a C program that keeps the information of the courses given by a lecturer and the list of students who took this course.
+
+This lecturer teaches 4 different classes. The number of students in each class may differ from each other. There are two different linked list structures for holding lectures and students. The node structures of these lists are given below. In the structure of the class (nodeClass), information about which class it is (classID) and the average of the midterm exams of the students in the class (classMidtermAverage) are kept. Besides these, there is a pointer pointing to the next class and a pointer pointing to a node belonging to the structure (nodeStudent) used to define students' knowledge. In the structure called nodeStudent, there is a student's number, midterm grade and a marker showing the next student in the same class.
